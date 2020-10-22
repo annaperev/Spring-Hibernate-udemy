@@ -14,11 +14,11 @@ public class AccountDAO {
     private String serviceCode;
 
     public void addAccount(Account account, boolean vipFlag){
-        System.out.println(getClass() + ": doing my db work: adding an account");
+        System.out.println(getClass() + ": doing my db work: adding an account\n" );
     }
 
     public boolean doWork(){
-        System.out.println(getClass() + ": doWork()");
+        System.out.println(getClass() + ": doWork()\n");
         return false;
     }
 
