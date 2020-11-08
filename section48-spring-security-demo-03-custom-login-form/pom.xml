@@ -75,7 +75,7 @@
 
   <!-- TO DO: Add support for Maven WAR Plugin -->
   <build>
-    <finalName>ssection48-spring-security-demo-03-custom-login-form</finalName>
+    <finalName>section48-spring-security-demo-03-custom-login-form</finalName>
 
     <pluginManagement>
       <plugins>
