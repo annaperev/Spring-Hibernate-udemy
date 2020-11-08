@@ -21,9 +21,7 @@
 	<mvc:annotation-driven/>
 
 	<!-- Define Spring MVC view resolver -->
-	<bean        // display the argument
-        String theMethod =joinPoint.getSignature().toShortString();
-        myLogger.info("=====>> in @Before: calling method: " + theMethod);
+	<bean
 			class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/view/" />
 		<property name="suffix" value=".jsp" />
