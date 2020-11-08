@@ -10,7 +10,7 @@
   <name>section47-spring-security-demo-01-base-app</name>
 
   <properties>
-    <springframework.version>5.2.1.RELEASE</springframework.version>
+    <springframework.version>5.2.8.RELEASE</springframework.version>
 
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
