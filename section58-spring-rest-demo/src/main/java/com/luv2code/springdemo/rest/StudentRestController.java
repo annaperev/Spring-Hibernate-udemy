@@ -1,8 +1,6 @@
 package com.luv2code.springdemo.rest;
 
 import com.luv2code.springdemo.entity.Student;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.PostConstruct;
